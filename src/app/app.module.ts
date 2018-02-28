@@ -5,7 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import {ComponentsModule} from './lib/components/components.module';
 import { AppComponent } from './app.component';
 import {HomeModule} from './views/home/home.module';
-import {NotFoundModule} from './views/not-found/not-found.module'
+import {NotFoundModule} from './views/not-found/not-found.module';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MaterialModule} from './lib/components/material/material.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {NotFoundModule} from './views/not-found/not-found.module'
     AppRoutingModule,
     ComponentsModule,
     HomeModule,
-    NotFoundModule
+    NotFoundModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

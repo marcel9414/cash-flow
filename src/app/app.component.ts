@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'cf-root',
   template: `
   	<cf-nav></cf-nav>
+  	<button mat-button> Comenzar Test</button>
   	<router-outlet></router-outlet>
     <cf-footer></cf-footer>
   `,
